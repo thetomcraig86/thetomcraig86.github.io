@@ -6,9 +6,31 @@ $red-orange: #F25E3D;
 $pink: #F25D50;
 
 /* Styles */
-
+* {
+    margin:0px;
+    padding: 0px;
+}
 html {
     background-color: $blue-dark;
     color: $orange-light;
     font-family: helvetica, sans-serif;
+    font-size: 100%;
+    
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+}
+
+.wrapper {
+width: 100vw;
+overflow: hidden;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.main-content {
+    font-size: 2em;
 }
